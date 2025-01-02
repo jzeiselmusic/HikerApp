@@ -10,9 +10,8 @@ Hiker uses the Strava API to fetch and display the recent activity list of the l
 - Supports deep linking for Strava account verification.
 
 ## Requirements
-- Strava app installed on your device for deep linking (optional).
 - Internet connection for Strava API authentication and data retrieval.
-- Application has only been tested on a Pixel 6a phone.
+- Strava app installed on your device for deep linking (optional).
 
 ## Setup Instructions
 
@@ -32,5 +31,6 @@ Hiker uses the Strava API to fetch and display the recent activity list of the l
    - Allow all requested permissions.
    - When prompted to redirect after account authorization, choose the **"Hiker"** app to complete the process.
 
-
+## Notes
+- Application has only been tested on **Pixel 6a with Android 13**
 
