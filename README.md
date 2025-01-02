@@ -13,6 +13,10 @@ Hiker uses the Strava API to fetch and display the recent activity list of the l
 - Internet connection for Strava API authentication and data retrieval.
 - Strava app installed on your device for deep linking (optional).
 
+## Notes
+- Application has only been tested on **Pixel 6a phone with Android 13 and Galaxy Tab A7 with Android 12**
+- If **not** deep-linking, authorization will use default browser. Known bug occurs when not using Chrome for default browser. 
+
 ## Setup Instructions
 
 1. **Clone the Repository**
@@ -31,6 +35,4 @@ Hiker uses the Strava API to fetch and display the recent activity list of the l
    - Allow all requested permissions.
    - When prompted to redirect after account authorization, choose the **"Hiker"** app to complete the process.
 
-## Notes
-- Application has only been tested on **Pixel 6a with Android 13**
 
