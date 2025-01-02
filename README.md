@@ -32,3 +32,15 @@ Hiker uses the Strava API to fetch and display the recent activity list of the l
    - When prompted to redirect after account authorization, choose the **"Hiker"** app to complete the process.
 
 
+
+## Future Improvements
+1. Implement refresh token 
+1. Create a timeout for the loading spinner in case internet connectivity is slow, or unresponsive
+2. Improve the UI components for displaying text information to the user
+3. Increase privacy and security by storing keys and private information in build files
+4. Store access tokens in persistent storage for saved login status between application restarts
+5. Handle more error cases - network unavailable, incorrect scope, permission denied
+6. Ideally, the app could be extended to display more user information in fun ways
+  - Map out user's route
+  - Show elevation gain in GUI
+  - Show friend interaction and comments
