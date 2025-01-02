@@ -24,14 +24,10 @@ Hiker uses the Strava API to fetch and display the recent activity list of the l
    git clone https://github.com/jzeiselmusic/HikerApp.git
    cd HikerApp
    ```
-
-2. **Gradle Sync**
-   Before building the app, ensure that you perform a Gradle sync in Android Studio to fetch all required dependencies.
-
-3. **Build and Run**
+2. **Build and Run**
    Open the project in Android Studio, sync Gradle, and run the app on a device or emulator.
 
-4. **Strava Authorization**
+3. **Strava Authorization**
    - Allow all requested permissions.
    - When prompted to redirect after account authorization, choose the **"Hiker"** app to complete the process.
 
