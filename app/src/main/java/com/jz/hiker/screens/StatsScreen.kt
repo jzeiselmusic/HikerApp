@@ -1,6 +1,5 @@
 package com.jz.hiker.screens
 
-import android.graphics.Paint.Align
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -27,7 +26,6 @@ import com.jz.hiker.common.RoundedBox
 import com.jz.hiker.common.isPortrait
 import com.jz.hiker.main.AppViewModel
 import com.jz.hiker.strava.Activity
-import com.jz.hiker.ui.theme.HikerTheme
 import com.jz.hiker.ui.theme.Typography
 
 @Composable
