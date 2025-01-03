@@ -129,7 +129,7 @@ fun ActivityList(
         ) {
             Text(
                 style = Typography.headlineSmall,
-                text = "You have no recent activities.\n\nLame!",
+                text = "You have no recent activities!",
                 textAlign = TextAlign.Center,
                 color = Color.LightGray.copy(alpha = 0.5f),
             )

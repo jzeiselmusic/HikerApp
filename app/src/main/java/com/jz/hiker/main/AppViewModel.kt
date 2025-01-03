@@ -81,7 +81,7 @@ class AppViewModel : ViewModel() {
     }
 
     fun getUserData() {
-        // TODO: Handle error / null cases
+        // TODO: Handle all error / null cases
         viewModelScope.launch(Dispatchers.IO) {
             if (currentAccessToken == null || connectionManager == null) {
                 logoutStravaAccount("getUserData: no token or manager")
